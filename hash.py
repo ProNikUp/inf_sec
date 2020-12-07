@@ -11,6 +11,7 @@ def hash(n):
         F2 = math.log(F)**math.log(math.pi)
         F3 = math.exp(F2)
         F4 = F3 * F
-    return F4  
+        F5 = int(F4)
+    return F5  
  
 print(hash([8,6,7,4]))
